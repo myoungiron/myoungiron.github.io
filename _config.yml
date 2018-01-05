@@ -10,12 +10,13 @@ site-twitter: #if your site has a twitter account, enter it here
 
 # Author Settings
 author: myoungiron # add your name
-author-img: david-freeman.jpg # add your photo
+author-img: myoungiron.jpg # add your photo
 about-author: 繁华殆尽，静下心，编一行代码 # add description
-twitter: # add your Twitter handle
-facebook: # add your Facebook handle
+#twitter: # add your Twitter handle
+#facebook: # add your Facebook handle
 github: myoungiron # add your Github handle
-linkedin: # add your Linkedin handle
+#linkedin: # add your Linkedin handle
+weibo：345580231
 email: guo12210109@foxmail.com # add your Email address
 
 # Disqus
