@@ -1,7 +1,10 @@
 ---
 title: 关于NexT html5背景设置
-date: 2016-12-04 14:16:48
-tags: Hexo
+date: 2018-01-12 14:16:48
+author:     "myoungiron"
+header-img: "img/home-bg-o.jpg"
+catalog: true
+tags: js
 ---
 前几天你在查找东西的时候发现了几个不错的博客背景，我也来配置一下，这个背景是基于[particles.js](http://codepen.io/VincentGarreau/pen/pnlso)改过来的，比较简单
 
