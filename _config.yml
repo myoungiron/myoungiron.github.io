@@ -86,13 +86,15 @@ service-worker: true
 
 # Friends
 friends: [
-    #{
-    #     title: "Su",
-    #     href: "http://su.gallery/"
-    # },{
-     #   title: "乱序",
-    #    href: "http://mida.re/"
-    #},{
+    {
+         title: "Werb",
+         href: "https://github.com/Werb/"
+     }
+    ,{
+        title: "Hux(theme author)",
+        href: "http://http://huangxuan.me/"
+    }
+    #,{
      #   title: "前端外刊评论",
     #    href: "http://qianduan.guru/"
     #},{
