@@ -2,7 +2,7 @@
 title: 关于NexT html5背景设置
 date: 2018-01-12 14:16:48
 author:     "myoungiron"
-header-img: "img/post-bg-digital-native.jpg"
+header-img: "img/home-bg-o.jpg"
 catalog: true
 tags: js
 ---
