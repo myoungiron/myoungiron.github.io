@@ -195,12 +195,17 @@
 <script type="text/javascript">
     function generateCatalog (selector) {
 
-        // interop with multilangual 
-        if ({{ page.multilingual }}) {
-            _containerSelector = 'div.post-container.active'
-        } else {
-            _containerSelector = 'div.post-container'
-        }
+        // 原作者想要在这里加一个语言选择的if，如果在头文件中multilingual为true时选择双语，false选择当前语言，
+		//由于catalog和multilingual表面是没有必然关联的，所以一般不会在头文件中关联出现，导致当我没有选择写multilingual时
+		//以下if语句由于page.multilingual为空而报错
+		//由于我目前暂时用不到语言选择，所以我直接注释掉了这个if语句
+        //if ({{ page.multilingual }}) {
+        //    _containerSelector = 'div.post-container.active'
+        //} else {
+        //    _containerSelector = 'div.post-container'
+       // }
+		
+		 _containerSelector = 'div.post-container'
 
         // init
         var P = $(_containerSelector),a,n,t,l,i,c;
