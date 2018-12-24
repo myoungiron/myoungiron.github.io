@@ -13,16 +13,22 @@ multilingual: true
 </select>
 -->
 <!-- Chinese Version -->
-<div class="zh post-container">
+<!-- <div class="zh post-container">
     {% capture about_zh %}{% include about/zh.md %}{% endcapture %}
     {{ about_zh | markdownify }}
 </div>
+-->
+
+<script src="http://www.jq22.com/jquery/jquery-1.10.2.js"></script>
+<script src="js/index.js"></script>
+<link rel="stylesheet" href="css/index.css" />
+
+<div id="content">
+			<pre id="style-text"></pre>
+			<pre id="work-text"></pre>
+</div>
 
 
-				<!-- UY BEGIN -->
-				<div id="uyan_frame"></div>
-				<script type="text/javascript" src="http://v2.uyan.cc/code/uyan.js?uid=2156858"></script>
-				<!-- UY END -->
 
 
 {% if site.disqus_username %}
