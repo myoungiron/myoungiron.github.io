@@ -1,0 +1,32 @@
+I"�	<blockquote>
+  <p>我在这说的Tomcat是解压版(免安装版)！
+配置Tomcat前需要JDK的支持，下载和安装JDK我就不在这里详细叙述了，直接讲配置Tomcat吧！</p>
+</blockquote>
+
+<h2 id="下载">下载</h2>
+
+<p>下载Tomcat.zip压缩包，可以直接从<a href="http://tomcat.apache.org/">Apache   Tomcat官网</a>下载
+，在下载页面中选择32-bit或者64-bit Windows zip选项。下载完成后解压到指定目录下，比如我解压到了D:\Program Files\apache-tomcat-8.0.48\目录下。</p>
+<h2 id="配置">配置</h2>
+<p>1、首先添加环境变量名称为TOMCAT_HOME，值为：D:\Program Files\apache-tomcat-8.0.48
+然后依次添加环境变量CATALINA_HOME和CATALINA_BASE，值全为%TOMCAT_HOME%。
+<br />
+2、接下来要修改的就是Tomcat的解压文件，主要修改<strong>startup.bat</strong>和<strong>shutdown.bat</strong>两个文件，
+在其解压根目录下的conf文件夹下。修改内容如下</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>SET <span class="nv">JAVA_HOME</span><span class="o">=</span>JDK的目录
+SET <span class="nv">CATALINA_HOME</span><span class="o">=</span>前面解压后Tomcat的目录。
+</code></pre></div></div>
+<p><br />
+3、配置完成，这样就可以运行<strong>startup.bat</strong>启动Tomcat，运行<strong>shutdown.bat</strong>关闭Tomcat</p>
+<h2 id="服务">服务</h2>
+<p>更改完配置后，解压版(免安装版)Tomcat还需要手动的加入服务，不然无法打开<strong>tomcatw.exe</strong>程序来进行配置。
+<br />
+运行Win+R打开对话框，输入cmd命令打开控制台，用cd命令进入D:\Program Files\apache-tomcat-8.0.48，然后输入如下命令</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>service.bat <span class="nb">install</span>
+</code></pre></div></div>
+<p>程序提示：The service ‘Tomcat’ has been installed类似的语句。说明服务Tomcat已经安装成功了。当然，如果想要卸载服务，也可以使用如下命令进行卸载</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>service.bat remove
+</code></pre></div></div>
+<h2 id="结束">结束</h2>
+<p>通过以上几步，解压版(免安装版)Tomcat就已经安装完成了，我们可以直接点击<strong>startup.bat</strong>和<strong>shutdown.bat</strong>来打开和关闭Tomcat</p>
+:ET
