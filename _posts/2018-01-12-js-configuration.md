@@ -5,6 +5,7 @@ author:     "myoungiron"
 header-img: "img/home-bg-o.jpg"
 catalog: true
 tags: js
+icon: "img/article_icon/technical_article_icon.png"
 ---
 前几天你在查找东西的时候发现了几个不错的博客背景，我也来配置一下，这个背景是基于[particles.js](http://codepen.io/VincentGarreau/pen/pnlso)改过来的，比较简单
 

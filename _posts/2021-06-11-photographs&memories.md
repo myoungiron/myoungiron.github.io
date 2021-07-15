@@ -5,6 +5,7 @@ author: "myoungiron"
 header-img: "img/post-bg-digital-native.jpg"
 catalog: true
 tags: photographs&memories
+icon: "img/article_icon/photo_icon.png"
 ---
 ### 随笔
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6月11日，下班比较早，出了地铁站发现天边的晚霞有一种李白杜甫看了就能才思泉涌的意境，又因为我买了一部新手机，所以特别想记录一下。

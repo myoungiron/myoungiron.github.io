@@ -90,3 +90,16 @@
     -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);  
     background-color: #fff;  
 }
+
+.article_icon
+{
+    height: 40px;
+    width: 40px;
+    float: left;
+    align-content: center;
+    padding-bottom: 5px;
+    margin-right: 6px;
+	background-size:cover;
+	background-repeat: no-repeat;
+	
+}
