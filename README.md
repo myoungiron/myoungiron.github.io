@@ -1,6 +1,6 @@
 # myoungiron Blog
 
-### 写好Blog第一步，是写好EADME
+### 写好Blog第一步，是写好README
 
 
 ### 致谢
