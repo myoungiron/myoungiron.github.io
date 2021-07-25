@@ -1,11 +1,11 @@
 ---
-layout: default
+layout: page
 title: "About"
 description: "ha, this is myoungiron."
 header-img: "img/about-bg-walle.jpg"
 ---
 
-<!-- Page Header -->
+<!-- Page Header
 <header class="intro-header" style="background-image: url('{{ site.baseurl }}/{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}')">
     <div class="container">
         <div class="row">
@@ -17,21 +17,9 @@ header-img: "img/about-bg-walle.jpg"
             </div>
         </div>
     </div>
-</header>
-<!-- Language Selector 
-<select class="sel-lang" onchange= "onLanChange(this.options[this.options.selectedIndex].value)">
-    <option value="0" selected> 中文 Chinese </option>
-    <option value="1"> 英文 English </option>
-</select>
--->
-<!-- Chinese Version
- <div class="zh post-container">
+</header> -->
+<!-- Chinese Version -->
+<div class="zh post-container">
     {% capture about_zh %}{% include about/zh.md %}{% endcapture %}
     {{ about_zh | markdownify }}
-</div>
- -->
-
-<div id="content">
-	<pre id="style-text"></pre>
-	<pre id="work-text"></pre>
 </div>
